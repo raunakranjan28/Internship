@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //single conditional operator
+        //syntax  = "  let result(this is varible)=(condition)? value1: value2; "
+
+        let age=parseInt(prompt('age for request'))
+        let accessalowed = (age>18)?'access':'denied';
+        alert(accessalowed);
+
+        //multiple conditional operators
+
+        let height=parseFloat (prompt('your height'))
+        let canin=(height<=5)?'you are short':
+        (height >5 && height<6)?'you are avrage':
+        (height>=6)?'you are long':
+        'fill your data 1st';
+        alert(canin);
+
+    </script>
+</body>
+</html>
