@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //String conversion
+
+        let value = false;
+alert(typeof value); // boolean
+
+value = String(value); // now value is a string "true"
+alert(typeof value); // string
+
+        //Numeric conversion
+
+let str = "123";
+alert(typeof str); // string
+
+let num = Number(str); // becomes a number 123
+
+alert(typeof num); // number
+
+        //boolean conversion
+
+        alert( Boolean(1) ); // true
+        alert( Boolean(0) ); // false
+        
+        alert( Boolean("hello") ); // true
+        alert( Boolean("") ); // false
+
+    </script>
+</body>
+</html>
